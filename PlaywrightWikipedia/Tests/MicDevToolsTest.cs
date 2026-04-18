@@ -3,12 +3,12 @@ using Microsoft.Playwright;
 using PlaywrightWikipedia.Pages;
 using PlaywrightWikipedia.Helpers;
 
-namespace PlaywrightWikipedia.PlaywrightWikipedia
+namespace PlaywrightWikipedia.Tests
 {
     [TestFixture]
-    public class ColorTest : PageTest
+    public class MicrosoftDevToolsTest : PageTest
     {
-        private ColorChange _colorChange;
+        private MicDevToolsPage _devToolsPage;
 
         public override BrowserNewContextOptions ContextOptions()
         {
@@ -21,19 +21,20 @@ namespace PlaywrightWikipedia.PlaywrightWikipedia
         [SetUp]
         public async Task SetUp()
         {
-            Logger.Initialize("ColorTest");
+            Logger.Initialize("MicrosoftDevToolsTest");
             await Page.GotoAsync("https://en.wikipedia.org/wiki/Playwright_(software)");
-            _colorChange = new ColorChange(Page);
+            _devToolsPage = new MicDevToolsPage(Page);
         }
 
         [Test]
-        public async Task DarkModeSelection()
+        public async Task AllTechnologyNamesShouldBeLinks()
         {
-            await _colorChange.OpenAppearancePanel();
-            await _colorChange.SelectDarkMode();
-            await _colorChange.AssertDarkModeSelected();
-            await _colorChange.AssertDarkModeApplied();
-            //await Page.PauseAsync();
+            await _devToolsPage.ExpandTable();
+
+            var nonLinkItems = await _devToolsPage.GetNonLinkItems();
+
+            Assert.That(nonLinkItems, Is.Empty,
+                $"The following technology names are not links: {string.Join(", ", nonLinkItems)}");
         }
     }
 }

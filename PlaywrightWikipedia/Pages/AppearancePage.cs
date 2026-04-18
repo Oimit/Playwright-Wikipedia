@@ -1,5 +1,6 @@
 using Microsoft.Playwright;
 using System.Text.RegularExpressions;
+using PlaywrightWikipedia.Helpers;
 
 namespace PlaywrightWikipedia.Pages
 {
@@ -25,32 +26,38 @@ namespace PlaywrightWikipedia.Pages
         {
             await AppearanceToggle.EvaluateAsync("element => element.click()");
             //await Assertions.Expect(DarkModeButton).ToBeAttachedAsync(); // Not relevant - the #skin-Client-pref-skin-theme-value-day is just hidden and always exist.
+            Logger.Log("Appearance panel opened.");
         }
 
         public async Task SelectDarkMode()
         {
             await DarkModeButton.EvaluateAsync("element => element.click()");
+            Logger.Log("Dark mode selected.");
         }
 
         public async Task AssertDarkModeSelected()
         {
             await Assertions.Expect(DarkModeButton).ToBeCheckedAsync();
+            Logger.Log("Assertion passed: Dark mode radio button is checked.");
         }
 
         public async Task SelectLightMode()
         {
             await LightModeButton.EvaluateAsync("element => element.click()");
+            Logger.Log("Light mode selected.");
         }
 
         public async Task AsserLightModeSelected()
         {
             await Assertions.Expect(LightModeButton).ToBeCheckedAsync();
+            Logger.Log("Assertion passed: Light mode radio button is checked.");
         }
 
         public async Task AssertDarkModeApplied()
         {
             await Assertions.Expect(_page.Locator("html"))
                 .ToHaveClassAsync(new Regex("skin-theme-clientpref-night")); //Using Regex to find "night" or "day" for "Light" mode or "os" for Automatic.
+            Logger.Log("Assertion passed: HTML class contains 'skin-theme-clientpref-night'.");
         }
     }
 }

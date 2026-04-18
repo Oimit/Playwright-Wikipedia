@@ -1,2 +1,6 @@
 bin/
 obj/
+MyDoc.txt
+.vscode
+Logs/*
+!Logs/.gitkeep
