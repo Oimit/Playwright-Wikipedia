@@ -6,17 +6,9 @@ using PlaywrightWikipedia.Helpers;
 namespace PlaywrightWikipedia.Tests
 {
     [TestFixture]
-    public class MicrosoftDevToolsTest : PageTest
+    public class MicrosoftDevToolsTest : BaseTest
     {
         private MicDevToolsPage _devToolsPage;
-
-        public override BrowserNewContextOptions ContextOptions()
-        {
-            return new BrowserNewContextOptions
-            {
-                ViewportSize = new ViewportSize { Width = 1280, Height = 720 }
-            };
-        }
 
         [SetUp]
         public async Task SetUp()

@@ -3,20 +3,12 @@ using Microsoft.Playwright;
 using PlaywrightWikipedia.Pages;
 using PlaywrightWikipedia.Helpers;
 
-namespace PlaywrightWikipedia.PlaywrightWikipedia
+namespace PlaywrightWikipedia.Tests
 {
     [TestFixture]
-    public class ColorTest : PageTest
+    public class ColorTest : BaseTest
     {
         private ColorChange _colorChange;
-
-        public override BrowserNewContextOptions ContextOptions()
-        {
-            return new BrowserNewContextOptions
-            {
-                ViewportSize = new ViewportSize { Width = 1280, Height = 720 }
-            };
-        }
 
         [SetUp]
         public async Task SetUp()

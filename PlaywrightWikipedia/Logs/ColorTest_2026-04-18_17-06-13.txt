@@ -1,4 +1,0 @@
-[17:06:14] Appearance panel opened.
-[17:06:14] Dark mode selected.
-[17:06:14] Assertion passed: Dark mode radio button is checked.
-[17:06:14] Assertion passed: HTML class contains 'skin-theme-clientpref-night'.

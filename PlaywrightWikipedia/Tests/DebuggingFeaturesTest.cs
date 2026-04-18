@@ -1,23 +1,14 @@
 using Microsoft.Playwright.NUnit;
 using Microsoft.Playwright;
-using NUnit.Framework;
 using PlaywrightWikipedia.Pages;
 using PlaywrightWikipedia.Helpers;
 
 namespace PlaywrightWikipedia.Tests
 {
     [TestFixture]
-    public class DebuggingFeaturesTest : PageTest
+    public class DebuggingFeaturesTest : BaseTest
     {
         private DebuggingFeaturesPage _debuggingFeaturesPage;
-
-        public override BrowserNewContextOptions ContextOptions()
-        {
-            return new BrowserNewContextOptions
-            {
-                ViewportSize = new ViewportSize { Width = 1280, Height = 720 }
-            };
-        }
 
         [SetUp]
         public async Task SetUp()
