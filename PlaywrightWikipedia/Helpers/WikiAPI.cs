@@ -1,5 +1,4 @@
 using Microsoft.Playwright;
-using System.Text.Json;
 
 namespace PlaywrightWikipedia.Helpers
 {

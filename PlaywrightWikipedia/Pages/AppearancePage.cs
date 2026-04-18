@@ -20,7 +20,7 @@ namespace PlaywrightWikipedia.Pages
             _page.Locator("#skin-client-pref-skin-theme-value-night"); // ID of Dark Mode button
 
         private ILocator LightModeButton =>
-            _page.Locator("#skin-Client-pref-skin-theme-value-day"); // ID of Light Mode button
+            _page.Locator("#skin-client-pref-skin-theme-value-day"); // ID of Light Mode button
 
         public async Task OpenAppearancePanel() // Openning the appearance by JS script, and test if DarkModeButton is 
         {
@@ -47,7 +47,7 @@ namespace PlaywrightWikipedia.Pages
             Logger.Log("Light mode selected.");
         }
 
-        public async Task AsserLightModeSelected()
+        public async Task AssertLightModeSelected()
         {
             await Assertions.Expect(LightModeButton).ToBeCheckedAsync();
             Logger.Log("Assertion passed: Light mode radio button is checked.");

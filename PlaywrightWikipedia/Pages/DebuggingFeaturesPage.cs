@@ -1,5 +1,6 @@
 using Microsoft.Playwright;
 using PlaywrightWikipedia.Helpers;
+using NUnit.Framework;
 
 namespace PlaywrightWikipedia.Pages
 {
