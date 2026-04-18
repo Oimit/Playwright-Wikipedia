@@ -1,0 +1,24 @@
+Task 3:
+- On the right side of the Wikipedia page there is an "Appearance" panel with color options (Automatic, Light, Dark).
+- We used JS to click it directly: element => element.click() which bypasses the visibility check.
+- Same approach for selecting Dark mode - the radio button is also hidden so we used JS click.
+- For the assertion, we check that the <html> tag gets the class skin-theme-clientpref-night which is what Wikipedia adds when dark mode is active.
+- We also assert that the radio button itself is checked.
+- Code:
+    - AppearanceToggle - targets #vector-appearance-dropdown-checkbox
+    - DarkModeButton - targets #skin-client-pref-skin-theme-value-night
+    - AssertDarkModeSelected() - checks the radio button is checked
+    - AssertDarkModeApplied() - checks the html class using Regex for skin-theme-clientpref-night
+
+Task 2:
+- I went over the items under Microsoft Development Tools and saw that every techlogy is under a "li" tag.
+- Create a loop to run over all "li" tags and check for <a> tag ot <ul> so we know its a link - Thats also clear the fail of "playwright",
+  which is the actual page we are inside.
+- Regaring the Visual Basics, its technically not a link, but, its the the actual technology. Its contain technologies inside that are links,
+  so I dont fail the test because of that.
+- Code:
+    - First, we need to open "Microsoft Development Tools" with the "show" button as we saw is a <button class="mw-collapsible-toggle....>
+    - The table is targeted using [aria-labelledby*='Microsoft_development_tools'] which is unique enough to find it without hardcoding.
+    - We ran over a "td" instead of a "th" with "td li" so we get only the data the relevant and not other staffs like the "V * T * E".
+    - For each item we check 3 things: is it a grouping label (has <ul> inside)? does it have an <a> tag? is it a self-link (mw-selflink class)?
+      Based on that we log SKIPPED, PASS or FAIL.
