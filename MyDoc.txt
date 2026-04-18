@@ -22,3 +22,33 @@ Task 2:
     - We ran over a "td" instead of a "th" with "td li" so we get only the data the relevant and not other staffs like the "V * T * E".
     - For each item we check 3 things: is it a grouping label (has <ul> inside)? does it have an <a> tag? is it a self-link (mw-selflink class)?
       Based on that we log SKIPPED, PASS or FAIL.
+
+
+
+Task 1:
+- First we created the UI extraction with exploring the "Debugging Features" and inspect it.
+    - We saw that we have a class of "mw-heading mw-heading3", so we search for h3 id which is "Debugging features".
+    - We used CSS selectors in order to get the content.
+    - Now we got a <p> that contains the paragraph and a <ul> that is 
+      a list of <li> which contains the "Debugging Features" paragraph.
+
+- For the API extraction, I looked how to get the API from the wiki and i found that
+  we need to get the API endpoints: https://en.wikipedia.org/w/api.php, and add our page name
+  which is page=Playwright_(software), and to add parameters such as: action=parse, prop-sections
+  and format=json so we can read it easily, so we got:
+  "https://en.wikipedia.org/w/api.php?action=parse&page=Playwright_(software)&prop=sections&format=json"
+    - I have found that the "Index" of that is "5" so we can get:
+    https://en.wikipedia.org/w/api.php?action=parse&page=Playwright_(software)&prop=wikitext&section=5&format=json
+        - The API returns raw wikitext which contains markers like ===heading===, 
+        * and <ref>...</ref>. 
+        These all need to be removed during normalization according to the assignment.
+    
+    For the API call in code, we used Playwright's IAPIRequestContext which is Playwright's built in tool for making HTTP requests,
+    we passed it Page.APIRequest from the test. The response comes back as JSON so we navigated it level by level — parse → wikitext → * to get the actual text.
+    For the normalization, we created a TextNormalizer class with 2 functions:
+        - Normalize() — cleans both texts by removing the wikitext markers we found earlier (===heading===, <ref>...</ref>, [15] footnotes, * bullets),
+          and then removes punctuation and lowercases everything so both texts are in the same format.
+        - CountUniqueWords() — splits the cleaned text into words and puts them in a HashSet which automatically removes duplicates,
+          then returns the count.
+
+    we used HashSet is because it doesn't allow duplicate values.

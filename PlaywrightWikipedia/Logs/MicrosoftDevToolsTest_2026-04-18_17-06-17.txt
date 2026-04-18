@@ -1,0 +1,128 @@
+[17:06:20] [PASS] 'Code' is a valid link.
+[17:06:20] [PASS] 'Express' is a valid link.
+[17:06:20] [PASS] 'Team System Profiler' is a valid link.
+[17:06:20] [PASS] 'Tools for Applications' is a valid link.
+[17:06:20] [PASS] 'Tools for Office' is a valid link.
+[17:06:20] [PASS] 'Blend' is a valid link.
+[17:06:20] [PASS] 'Expression Web' is a valid link.
+[17:06:20] [PASS] 'FxCop' is a valid link.
+[17:06:20] [PASS] 'GW-BASIC' is a valid link.
+[17:06:20] [PASS] 'MACRO-80' is a valid link.
+[17:06:20] [PASS] 'Macro Assembler' is a valid link.
+[17:06:20] [PASS] 'MSBuild' is a valid link.
+[17:06:20] [PASS] 'Pascal' is a valid link.
+[17:06:20] [SKIPPED - Grouping Label] 'QuickBASIC QBasic' is a parent grouping label, not a technology name.
+[17:06:20] [PASS] 'QBasic' is a valid link.
+[17:06:20] [PASS] 'QuickC' is a valid link.
+[17:06:21] [PASS] 'Robotics Developer Studio' is a valid link.
+[17:06:21] [PASS] 'Roslyn' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'SharePoint Designer FrontPage' is a parent grouping label, not a technology name.
+[17:06:21] [PASS] 'FrontPage' is a valid link.
+[17:06:21] [PASS] 'Small Basic' is a valid link.
+[17:06:21] [PASS] 'WebMatrix' is a valid link.
+[17:06:21] [PASS] 'Windows App SDK' is a valid link.
+[17:06:21] [PASS] 'Windows App Studio' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'Windows SDK CLR ProfilerILAsmNative Image GeneratorWinDiffXAMLPad' is a parent grouping label, not a technology name.
+[17:06:21] [PASS] 'CLR Profiler' is a valid link.
+[17:06:21] [PASS] 'ILAsm' is a valid link.
+[17:06:21] [PASS] 'Native Image Generator' is a valid link.
+[17:06:21] [PASS] 'WinDiff' is a valid link.
+[17:06:21] [PASS] 'XAMLPad' is a valid link.
+[17:06:21] [PASS] 'Dynamics AX' is a valid link.
+[17:06:21] [PASS] 'BASIC' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'Visual Basic legacyVB.NETVBAVBScript' is a parent grouping label, not a technology name.
+[17:06:21] [PASS] 'legacy' is a valid link.
+[17:06:21] [PASS] 'VB.NET' is a valid link.
+[17:06:21] [PASS] 'VBA' is a valid link.
+[17:06:21] [PASS] 'VBScript' is a valid link.
+[17:06:21] [PASS] 'Bosque' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'Visual C++ C++/CXC++/CLIManaged C++C++/WinRT' is a parent grouping label, not a technology name.
+[17:06:21] [PASS] 'C++/CX' is a valid link.
+[17:06:21] [PASS] 'C++/CLI' is a valid link.
+[17:06:21] [PASS] 'Managed C++' is a valid link.
+[17:06:21] [PASS] 'C++/WinRT' is a valid link.
+[17:06:21] [PASS] 'C#' is a valid link.
+[17:06:21] [PASS] 'C/AL' is a valid link.
+[17:06:21] [PASS] 'Dafny' is a valid link.
+[17:06:21] [PASS] 'Dexterity' is a valid link.
+[17:06:21] [PASS] 'F#' is a valid link.
+[17:06:21] [PASS] 'F*' is a valid link.
+[17:06:21] [PASS] 'Visual FoxPro' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'Java J++J#' is a parent grouping label, not a technology name.
+[17:06:21] [PASS] 'J++' is a valid link.
+[17:06:21] [PASS] 'J#' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'JavaScript TypeScriptJScript' is a parent grouping label, not a technology name.
+[17:06:21] [PASS] 'TypeScript' is a valid link.
+[17:06:21] [PASS] 'JScript' is a valid link.
+[17:06:21] [PASS] 'IronPython' is a valid link.
+[17:06:21] [PASS] 'IronRuby' is a valid link.
+[17:06:21] [PASS] 'Lean' is a valid link.
+[17:06:21] [PASS] 'P' is a valid link.
+[17:06:21] [PASS] 'Power Fx' is a valid link.
+[17:06:21] [PASS] 'PowerShell' is a valid link.
+[17:06:21] [PASS] 'Project Verona' is a valid link.
+[17:06:21] [PASS] 'Q#' is a valid link.
+[17:06:21] [PASS] 'Small Basic' is a valid link.
+[17:06:21] [PASS] 'VPL' is a valid link.
+[17:06:21] [PASS] 'XAML' is a valid link.
+[17:06:21] [PASS] 'Windows API' is a valid link.
+[17:06:21] [PASS] 'Silverlight' is a valid link.
+[17:06:21] [PASS] 'XNA' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'DirectX Managed DirectX' is a parent grouping label, not a technology name.
+[17:06:21] [PASS] 'Managed DirectX' is a valid link.
+[17:06:21] [PASS] 'UWP' is a valid link.
+[17:06:21] [PASS] 'Xbox Development Kit' is a valid link.
+[17:06:21] [PASS] 'Windows Installer' is a valid link.
+[17:06:21] [PASS] 'WinUI' is a valid link.
+[17:06:21] [SKIPPED - Grouping Label] 'ASP.NET CoreAJAXDynamic DataMVCRazorWeb Forms' is a parent grouping label, not a technology name.
+[17:06:22] [PASS] 'Core' is a valid link.
+[17:06:22] [PASS] 'AJAX' is a valid link.
+[17:06:22] [PASS] 'Dynamic Data' is a valid link.
+[17:06:22] [PASS] 'MVC' is a valid link.
+[17:06:22] [PASS] 'Razor' is a valid link.
+[17:06:22] [PASS] 'Web Forms' is a valid link.
+[17:06:22] [SKIPPED - Grouping Label] 'ADO.NET Entity Framework' is a parent grouping label, not a technology name.
+[17:06:22] [PASS] 'Entity Framework' is a valid link.
+[17:06:22] [PASS] 'MAUI' is a valid link.
+[17:06:22] [PASS] 'CardSpace' is a valid link.
+[17:06:22] [PASS] 'Communication Foundation' is a valid link.
+[17:06:22] [PASS] 'Identity Foundation' is a valid link.
+[17:06:22] [PASS] 'LINQ' is a valid link.
+[17:06:22] [PASS] 'Presentation Foundation' is a valid link.
+[17:06:22] [PASS] 'Workflow Foundation' is a valid link.
+[17:06:22] [PASS] 'WDK' is a valid link.
+[17:06:22] [SKIPPED - Grouping Label] 'WDF KMDFUMDF' is a parent grouping label, not a technology name.
+[17:06:22] [PASS] 'KMDF' is a valid link.
+[17:06:22] [PASS] 'UMDF' is a valid link.
+[17:06:22] [PASS] 'Windows HLK' is a valid link.
+[17:06:22] [PASS] 'WDM' is a valid link.
+[17:06:22] [PASS] 'Express' is a valid link.
+[17:06:22] [PASS] 'Compact' is a valid link.
+[17:06:22] [PASS] 'Management Studio' is a valid link.
+[17:06:22] [PASS] 'MSDE' is a valid link.
+[17:06:22] [PASS] 'Analysis' is a valid link.
+[17:06:22] [PASS] 'Reporting' is a valid link.
+[17:06:22] [PASS] 'Integration' is a valid link.
+[17:06:22] [PASS] 'Notification' is a valid link.
+[17:06:22] [PASS] 'Visual FoxPro' is a valid link.
+[17:06:22] [PASS] 'Microsoft Access' is a valid link.
+[17:06:22] [PASS] 'Access Database Engine' is a valid link.
+[17:06:22] [PASS] 'Extensible Storage Engine' is a valid link.
+[17:06:22] [PASS] 'Visual SourceSafe' is a valid link.
+[17:06:22] [PASS] 'Team Foundation Version Control' is a valid link.
+[17:06:22] [PASS] 'CodeView' is a valid link.
+[17:06:22] [PASS] 'OneFuzz' is a valid link.
+[17:06:22] [SKIPPED - Self Link] 'Playwright' is the current page.
+[17:06:22] [PASS] 'Script Debugger' is a valid link.
+[17:06:22] [PASS] 'WinDbg' is a valid link.
+[17:06:22] [PASS] 'xUnit.net' is a valid link.
+[17:06:22] [PASS] 'Active Setup' is a valid link.
+[17:06:22] [PASS] 'ClickOnce' is a valid link.
+[17:06:22] [PASS] 'npm' is a valid link.
+[17:06:22] [PASS] 'NuGet' is a valid link.
+[17:06:22] [PASS] 'vcpkg' is a valid link.
+[17:06:22] [PASS] 'Web Platform Installer' is a valid link.
+[17:06:22] [SKIPPED - Grouping Label] 'Windows Installer WiX' is a parent grouping label, not a technology name.
+[17:06:22] [PASS] 'WiX' is a valid link.
+[17:06:22] [PASS] 'Windows Package Manager' is a valid link.
+[17:06:22] [PASS] 'Microsoft Store' is a valid link.

@@ -1,0 +1,40 @@
+[17:06:16] [UI] Extracted text: Playwright includes built-in debugging capabilities such as: Screenshots captured on test failures
+Video recording of test runs
+Trace viewer for detailed step-by-step analysis
+Debug mode with browser inspector
+Console logs and network request monitoring[15]
+[17:06:16] [UI] Raw text: Playwright includes built-in debugging capabilities such as: Screenshots captured on test failures
+Video recording of test runs
+Trace viewer for detailed step-by-step analysis
+Debug mode with browser inspector
+Console logs and network request monitoring[15]
+[17:06:17] [API] Raw wikitext: ===Debugging features===
+Playwright includes built-in debugging capabilities such as:
+* Screenshots captured on test failures
+* Video recording of test runs
+* Trace viewer for detailed step-by-step analysis
+* Debug mode with browser inspector
+* Console logs and network request monitoring<ref>{{cite web|title=How to Use Playwright for End-to-End Testing|url=https://www.roundproxies.com/blog/how-to-use-playwright/|website=roundproxies.com|date=6 January 2025|access-date=6 February 2025}}</ref>
+[17:06:17] [API] Raw text: ===Debugging features===
+Playwright includes built-in debugging capabilities such as:
+* Screenshots captured on test failures
+* Video recording of test runs
+* Trace viewer for detailed step-by-step analysis
+* Debug mode with browser inspector
+* Console logs and network request monitoring<ref>{{cite web|title=How to Use Playwright for End-to-End Testing|url=https://www.roundproxies.com/blog/how-to-use-playwright/|website=roundproxies.com|date=6 January 2025|access-date=6 February 2025}}</ref>
+[17:06:17] [UI] Normalized text: playwright includes built in debugging capabilities such as  screenshots captured on test failures
+video recording of test runs
+trace viewer for detailed step by step analysis
+debug mode with browser inspector
+console logs and network request monitoring
+[17:06:17] [API] Normalized text: 
+playwright includes built in debugging capabilities such as 
+screenshots captured on test failures
+video recording of test runs
+trace viewer for detailed step by step analysis
+debug mode with browser inspector
+console logs and network request monitoring
+[17:06:17] [Normalizer] Unique word count: 31
+[17:06:17] [Normalizer] Unique word count: 31
+[17:06:17] [UI] Unique word count: 31
+[17:06:17] [API] Unique word count: 31
