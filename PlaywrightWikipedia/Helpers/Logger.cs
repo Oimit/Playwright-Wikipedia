@@ -2,7 +2,7 @@ namespace PlaywrightWikipedia.Helpers
 {
     public static class Logger
     {
-        private static string _logFilePath;
+        private static string _logFilePath = string.Empty;
 
         public static void Initialize(string testName)
         {

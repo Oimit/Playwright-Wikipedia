@@ -18,7 +18,7 @@ namespace PlaywrightWikipedia.Helpers
                 .GetString();
 
             Logger.Log($"[API] Raw wikitext: {wikitext}");
-            return wikitext;
+            return wikitext ?? string.Empty;
         }
     }
 }
