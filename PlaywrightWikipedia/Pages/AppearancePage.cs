@@ -56,7 +56,7 @@ namespace PlaywrightWikipedia.Pages
         public async Task AssertDarkModeApplied()
         {
             await Assertions.Expect(_page.Locator("html"))
-                .ToHaveClassAsync(new Regex("skin-theme-clientpref-night")); //Using Regex to find "night" or "day" for "Light" mode or "os" for Automatic.
+                .ToHaveClassAsync(new Regex("skin-theme-clientpref-night")); //Using Regex to find "night" for "Dark" Mode, or "day" for "Light" mode or "os" for Automatic.
             Logger.Log("Assertion passed: HTML class contains 'skin-theme-clientpref-night'.");
         }
     }
